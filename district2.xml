@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.7.0
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Oct 13, 2018 at 10:18 AM
+- Server version: 10.1.24-MariaDB
+- PHP Version: 7.1.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="wp" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="district">
+                CREATE TABLE `district` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(30) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'wp'
+    -->
+    <database name="wp">
+        <!-- Table district -->
+        <table name="district">
+            <column name="id">1</column>
+            <column name="name">Barguna </column>
+        </table>
+        <table name="district">
+            <column name="id">2</column>
+            <column name="name">Bhola</column>
+        </table>
+        <table name="district">
+            <column name="id">3</column>
+            <column name="name"> Barisal </column>
+        </table>
+        <table name="district">
+            <column name="id">4</column>
+            <column name="name">Bagerhat</column>
+        </table>
+        <table name="district">
+            <column name="id">5</column>
+            <column name="name">Bogra </column>
+        </table>
+        <table name="district">
+            <column name="id">6</column>
+            <column name="name">Bandarban </column>
+        </table>
+        <table name="district">
+            <column name="id">7</column>
+            <column name="name">Brahmanbaria </column>
+        </table>
+        <table name="district">
+            <column name="id">8</column>
+            <column name="name">Chittagong </column>
+        </table>
+        <table name="district">
+            <column name="id">9</column>
+            <column name="name">Comilla </column>
+        </table>
+        <table name="district">
+            <column name="id">10</column>
+            <column name="name">Cox's Bazar</column>
+        </table>
+        <table name="district">
+            <column name="id">11</column>
+            <column name="name">Chandpur </column>
+        </table>
+        <table name="district">
+            <column name="id">12</column>
+            <column name="name">Chapainawabganj </column>
+        </table>
+        <table name="district">
+            <column name="id">13</column>
+            <column name="name">Chuadanga </column>
+        </table>
+        <table name="district">
+            <column name="id">14</column>
+            <column name="name">Dinajpur</column>
+        </table>
+        <table name="district">
+            <column name="id">15</column>
+            <column name="name">Dhaka</column>
+        </table>
+        <table name="district">
+            <column name="id">16</column>
+            <column name="name"> Faridpur </column>
+        </table>
+        <table name="district">
+            <column name="id">17</column>
+            <column name="name">Feni </column>
+        </table>
+        <table name="district">
+            <column name="id">18</column>
+            <column name="name">Gazipur </column>
+        </table>
+        <table name="district">
+            <column name="id">19</column>
+            <column name="name">Gopalganj </column>
+        </table>
+        <table name="district">
+            <column name="id">20</column>
+            <column name="name">Gaibandha </column>
+        </table>
+        <table name="district">
+            <column name="id">21</column>
+            <column name="name">Habiganj </column>
+        </table>
+        <table name="district">
+            <column name="id">22</column>
+            <column name="name">Jhenaidah </column>
+        </table>
+        <table name="district">
+            <column name="id">23</column>
+            <column name="name">Jessore </column>
+        </table>
+        <table name="district">
+            <column name="id">24</column>
+            <column name="name">Jhalakathi </column>
+        </table>
+        <table name="district">
+            <column name="id">25</column>
+            <column name="name">Jamalpur </column>
+        </table>
+        <table name="district">
+            <column name="id">26</column>
+            <column name="name">Joypurhat</column>
+        </table>
+        <table name="district">
+            <column name="id">27</column>
+            <column name="name">Kurigram </column>
+        </table>
+        <table name="district">
+            <column name="id">28</column>
+            <column name="name">Khagrachari </column>
+        </table>
+        <table name="district">
+            <column name="id">29</column>
+            <column name="name">Kushtia </column>
+        </table>
+        <table name="district">
+            <column name="id">30</column>
+            <column name="name">Khulna</column>
+        </table>
+        <table name="district">
+            <column name="id">31</column>
+            <column name="name"> Kishoreganj </column>
+        </table>
+        <table name="district">
+            <column name="id">32</column>
+            <column name="name">Lalmonirhat </column>
+        </table>
+        <table name="district">
+            <column name="id">33</column>
+            <column name="name">Laxmipur </column>
+        </table>
+        <table name="district">
+            <column name="id">34</column>
+            <column name="name">Mymensingh </column>
+        </table>
+        <table name="district">
+            <column name="id">35</column>
+            <column name="name"> Maulvibazar </column>
+        </table>
+        <table name="district">
+            <column name="id">36</column>
+            <column name="name">Magura </column>
+        </table>
+        <table name="district">
+            <column name="id">37</column>
+            <column name="name">Meherpur </column>
+        </table>
+        <table name="district">
+            <column name="id">38</column>
+            <column name="name">Manikganj </column>
+        </table>
+        <table name="district">
+            <column name="id">39</column>
+            <column name="name">Munshiganj</column>
+        </table>
+        <table name="district">
+            <column name="id">40</column>
+            <column name="name"> Madaripur </column>
+        </table>
+        <table name="district">
+            <column name="id">41</column>
+            <column name="name">Narayanganj </column>
+        </table>
+        <table name="district">
+            <column name="id">42</column>
+            <column name="name">Narsingdi </column>
+        </table>
+        <table name="district">
+            <column name="id">43</column>
+            <column name="name">Netrokona </column>
+        </table>
+        <table name="district">
+            <column name="id">44</column>
+            <column name="name">Nilphamari </column>
+        </table>
+        <table name="district">
+            <column name="id">45</column>
+            <column name="name">Narail </column>
+        </table>
+        <table name="district">
+            <column name="id">46</column>
+            <column name="name">Naogaon</column>
+        </table>
+        <table name="district">
+            <column name="id">47</column>
+            <column name="name"> Natore </column>
+        </table>
+        <table name="district">
+            <column name="id">48</column>
+            <column name="name">Noakhali </column>
+        </table>
+        <table name="district">
+            <column name="id">49</column>
+            <column name="name">Pabna </column>
+        </table>
+        <table name="district">
+            <column name="id">50</column>
+            <column name="name">Patuakhali </column>
+        </table>
+        <table name="district">
+            <column name="id">51</column>
+            <column name="name">Panchagarh </column>
+        </table>
+        <table name="district">
+            <column name="id">52</column>
+            <column name="name">Pirojpur </column>
+        </table>
+        <table name="district">
+            <column name="id">53</column>
+            <column name="name">Rangpur </column>
+        </table>
+        <table name="district">
+            <column name="id">54</column>
+            <column name="name">Rajshahi </column>
+        </table>
+        <table name="district">
+            <column name="id">55</column>
+            <column name="name">Rangamati </column>
+        </table>
+        <table name="district">
+            <column name="id">56</column>
+            <column name="name">Rajbari  </column>
+        </table>
+        <table name="district">
+            <column name="id">57</column>
+            <column name="name">Sherpur</column>
+        </table>
+        <table name="district">
+            <column name="id">58</column>
+            <column name="name"> Sunamganj </column>
+        </table>
+        <table name="district">
+            <column name="id">59</column>
+            <column name="name">Sylhet </column>
+        </table>
+        <table name="district">
+            <column name="id">60</column>
+            <column name="name">Satkhira </column>
+        </table>
+        <table name="district">
+            <column name="id">61</column>
+            <column name="name">Sirajganj </column>
+        </table>
+        <table name="district">
+            <column name="id">62</column>
+            <column name="name">Shariatpur </column>
+        </table>
+        <table name="district">
+            <column name="id">63</column>
+            <column name="name">Tangail </column>
+        </table>
+        <table name="district">
+            <column name="id">64</column>
+            <column name="name">Thakurgaon</column>
+        </table>
+    </database>
+</pma_xml_export>
